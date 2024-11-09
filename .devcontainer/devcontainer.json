@@ -1,0 +1,17 @@
+{
+    "name": "required-test-container",
+    "service": "flask_test",
+    "workspaceFolder": "/workspace",
+    "dockerComposeFile": "../compose.yml",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "github.copilot",
+                "mikoz.black-py",
+                "ms-ceintl.vscode-language-pack-ja",
+                "donjayamanne.githistory"
+            ]
+        }
+    }
+}
